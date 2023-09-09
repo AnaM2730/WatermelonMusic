@@ -1,12 +1,19 @@
 @font-face {
-    font-family: "Zenzai";
-    src: url("Vogue.ttf");
+    font-family: "vogue";
+    src: url("../fonts/Vogue.ttf");
+}
+
+@font-face {
+    font-family: "zenzai";
+    src: url("../fonts/Zenzai\ Itacha.ttf");
 }
 
 * {
     margin: 0;
     padding: 0;
-    font-family: "Vogue", Times, serif;
+    font-family: "vogue";
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -47,9 +54,7 @@ header {
     margin-right: 15px;
 }
 
-
-
-.logo img{
+.logo img {
     display: flex;
     align-items: center;
     justify-items: center;
@@ -58,19 +63,19 @@ header {
     margin-left: 650px;
 }
 
-
 .btn1 {
     background: transparent;
     color: white;
     text-align: center;
     border-radius: 10px;
     margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
 
 .btn1:hover {
     background: transparent;
-    color: red;
+    color: #e3004fc1;
 }
 
 .btn2 {
@@ -80,11 +85,12 @@ header {
     border-radius: 10px;
     margin: 10px;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .btn2:hover {
     background: transparent;
-    color: red;
+    color: #e3004fc1;
 }
 
 .btn3 {
@@ -93,84 +99,110 @@ header {
     text-align: center;
     border-radius: 5px;
     margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
 
 .btn3:hover {
     background: transparent;
-    color: red;
+    color: #e3004fc1;
+}
+
+.espaco{
+    background: white;
+    display: block;
+    position: relative;
+    height: 10vh;
+}
+
+.sobre .titulo{
+    font-family: 'vogue';
+    font-size: 3.7rem;
+    margin-bottom: 18px;
+    color: #fd5949;
+    padding-left: 190px;
+    padding-right: 300px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* REDES SOCIAIS */
 
-.social-menu h4{
+.social-menu h4 {
     padding-top: 18px;
     text-align: center;
     font-size: 25px;
-    font-family:'font2';
     color: white;
-    position:absolute; 
+    position: absolute;
     left: 50%;
     transform: translate(-50%);
+    flex-direction: column;
 }
-/*----- ÍCONES -----*/ 
+/*----- ÍCONES -----*/
 
-.social-menu img{
+.social-menu img {
     position: absolute;
     top: 12%;
     left: 12%;
 }
 
-.social-menu ul{
+.social-menu ul {
     padding-top: 10px;
     position: absolute;
     left: 77%;
     padding: 0px;
-    margin: 0px;
+    margin-top: -450px;
+    margin-left: 270px;
     display: flex;
+    flex-direction: column;
 }
 
-.social-menu ul li{
+.social-menu ul li {
     padding-top: 25px;
     list-style: none;
     margin: 0 15px;
 }
 
-.social-menu ul li img{
+.social-menu ul li img {
     font-size: 15px;
     line-height: 30px;
-    width: 37px; 
+    width: 37px;
     height: 37px;
-    transition: .6s;
+    transition: 0.6s;
     color: #000;
 }
 
-.social-menu ul li .img:hover{
-    color: #fff;
-    background-color: #fff;
+.social-menu ul li .img:hover {
+    color: #ffffff05;
+    background-color: #ffffff00;
 }
 
-
-.social-menu ul li a{  
+.social-menu ul li a {
     position: relative;
     display: block;
     width: 48px;
     height: 48px;
     border-radius: 15%;
-    background-color: #fff;
+    background-color: #ffffff00;
     text-align: center;
-    transition: .6s;
-    box-shadow: 0 5px 4px rgba(0,0,0,.8);
-
+    transition: 0.6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.8);
 }
 
-.social-menu ul li a:hover{
-    transform: translate(0,-5px);
+.social-menu ul li a:hover {
+    transform: translate(0, -5px);
 }
 
-.social-menu ul li:nth-child(1) a:hover{
+.social-menu ul li:nth-child(1) a:hover {
     background-color: #1ebbff;
 }
-.social-menu ul li:nth-child(2) a:hover{
-    background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#2c61ff 90%);
+.social-menu ul li:nth-child(2) a:hover {
+    background: radial-gradient(
+        circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #2c61ff 90%
+    );
 }
