@@ -10,12 +10,13 @@
         align-items: center;
     }
 
-    .sobre p {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 2em;
-        color: rgb(19, 2, 19);
-        padding-left: 3px;
-        padding-right: 3px;
+    #sobre p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    color: rgb(0, 0, 0);
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: justify;
     }
 }
 
@@ -44,8 +45,8 @@ div.card1 {
 }
 
 .card1 h1{
-    font-family: 'font1';
-    color: #4f2978;
+    font-family: "zenzai";
+    color: #ff0080;
     font-size: 20px;
     justify-content: center;
     text-align: center;
@@ -57,7 +58,6 @@ div.card1 {
     bottom: 25px;
     font-size: 10px;
     width: 296px;
-
 }
 
 .text{
@@ -133,15 +133,12 @@ h1.h1{
 
 
 .social-menu1 ul li img{
-
     font-size: 11px;
     line-height: 30px;
     width: 20px;
     height: 20px;
     transition: .6s;
     color: #000;
-
-
 }
 
 
