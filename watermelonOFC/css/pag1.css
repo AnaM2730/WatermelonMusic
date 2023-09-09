@@ -126,6 +126,15 @@ header {
     align-items: center;
 }
 
+.sobre p {
+    font-family: 'vogue';
+    font-size: 2em;
+    color: rgb(19, 2, 19);
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+
 /* REDES SOCIAIS */
 
 .social-menu h4 {
