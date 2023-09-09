@@ -1,21 +1,162 @@
-@media screen and (min-width: 992px){
-.sobre .titulo {
-    font-family: 'vogue'; 
-    font-size: 3.2rem;
-    margin-bottom: 18px;
-    color: aqua;
-    padding-left: 5px;
-    padding-right: 5px;
+@media screen and (min-width: 992px) {
+    .sobre .titulo {
+        font-family: "kalam";
+        font-size: 4.2rem;
+        margin-bottom: 18px;
+        color: rgb(255, 0, 204);
+        padding-left: 5px;
+        padding-right: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2em;
+        color: rgb(19, 2, 19);
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+}
+
+
+
+@media screen and (max-width: 636px){
+
+.container {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    padding: 10px;
 }
 
-.sobre p {
-    font-family: 'font2';
-    font-size: 2em;
-    color: rgb(19, 2, 19);
-    padding-left: 3px;
-    padding-right: 3px;
+div.card1 {
+    margin: 25px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.387);
+    display: flex;
+    border-radius: 10px;
+    width: 468px;
+    height: 200px;
+    position: relative;
+    left: 43%;
+    transform: translate( -50%);
 }
 
+.card1 h1{
+    font-family: 'font1';
+    color: #4f2978;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.card1 h3.descricao{
+    font-weight: bold;
+    position: relative;
+    bottom: 25px;
+    font-size: 10px;
+    width: 296px;
+
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    text-align: justify;
+    padding-left: 18px;
+
+
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 750px;
+    text-align: justify;
+    padding-left: 24px;
+    font-size: 11px;
+  
+}
+.imgs1 {
+    
+    width: 30%;
+    border-radius: 0px 10px 10px 0px;
+    float: right;
+    flex-direction: row-reverse;
+    margin-left: -220px;  
+}
+
+h1.h1{
+
+    margin-left: -218px;
+    margin-bottom: 7px;
+    padding: 5px;
+    position: relative;
+    bottom: 25px;
+    top: -17px; 
+}
+
+/*redes sociais*/
+
+.social-menu1 img{
+    position: absolute;
+    top: 14%;
+    left: 15%;
+}
+
+.social-menu1 ul{
+    padding-top: 10px;
+    position: absolute;
+    top: 69%;
+    left: 87%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+
+
+}
+.socialm ul{
+    padding-top: 10px;
+    position: absolute;
+    top: 69%;
+    left: 0.5%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+
+
+}
+
+
+
+.social-menu1 ul li img{
+
+    font-size: 11px;
+    line-height: 30px;
+    width: 20px;
+    height: 20px;
+    transition: .6s;
+    color: #000;
+
+
+}
+
+
+
+.social-menu1 ul li a{
+    
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 15%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.416);
+
+}
 }
