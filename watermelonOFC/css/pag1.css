@@ -21,7 +21,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "vogue";
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -40,14 +39,52 @@ p {
 
 a {
     font-size: 20px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode";
-    color: rgb(255, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(254, 254, 254);
 }
 
-header {
-    padding: 20px 0;
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+    padding-top: 30px;
+    
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 25px;
+    color: white;
+    border-radius: 20px;
+    font-weight: 300;
+}
+header ul li a:hover,
+header ul li a.active{
+    background: white;
+    color: rgb(0, 26, 26);
+}
+
+.mobile-menu{
+    cursor: pointer;
+    display: none;
+    margin-top: -10px;
+}
+
+.mobile-menu div{
+
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+
+}
+
 
 .menu {
     padding-top: 30px;
@@ -134,7 +171,7 @@ header {
     font-family: "kalam";
     font-size: 3.7em;
     margin-bottom: 18px;
-    color: #2b0016;
+    color: #ffffff;
     padding-left: 190px;
     padding-right: 300px;
     justify-content: center;
