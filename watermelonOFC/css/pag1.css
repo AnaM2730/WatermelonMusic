@@ -20,8 +20,6 @@ body {
     background-image: url(../assets/fundorosa.png);
     background-repeat: no-repeat;
     background-size: 2000px 1000px;
-    background-attachment: fixed;
-    overflow: hidden;
 }
 
 p {
@@ -115,24 +113,32 @@ header {
     height: 10vh;
 }
 
+.sobre
+{
+    position: relative;
+    padding: 100px;
+    background:#d1007dce;
+   
+}
 .sobre .titulo{
-    font-family: 'vogue';
-    font-size: 3.7rem;
+    font-family: 'font1';
+    font-size: 3.7em;
     margin-bottom: 18px;
-    color: #fd5949;
+    color:#4f2978;
     padding-left: 190px;
     padding-right: 300px;
     justify-content: center;
-    align-items: center;
+    text-align: center;
+}
+.sobre p{
+    font-family: 'font2';
+    font-size: 1.8em;
+    color: rgb(19, 2, 19);
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: justify;
 }
 
-.sobre p {
-    font-family: 'vogue';
-    font-size: 2em;
-    color: rgb(19, 2, 19);
-    padding-left: 3px;
-    padding-right: 3px;
-}
 
 
 /* REDES SOCIAIS */
