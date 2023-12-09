@@ -209,24 +209,5 @@ form [type="submit"]{
     border-radius: 10px;
 } 
 
-.genero{
-    
-    width:555px;
-    height:65px;
-    display: flex;
-    float:inline-start;
-    text-align: left;
-    border-radius: 10px;
-    color: rgb(255, 255, 255);
-    font-size: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
 
-.gene{
-    width:600px;
-    height:45px;
-    display: flex;
-    text-align: left;
-    border-radius: 10px;
-}
   
